@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid black;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    border: 1px solid #666;
+    width: 400px;
+}
+
+.box1{
+    background-color: lightblue;
+    order: 1;
+}
+
+.box2{
+    background-color: lightcoral;
+    order: 0;
+}
+
+.box3{
+    background-color: lightgrey;
+    order: 2;
+}
+
+.box4{
+    background-color: lightsalmon;
+}
+
+.box5{
+    background-color: lightslategray;
+}

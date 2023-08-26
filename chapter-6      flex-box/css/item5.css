@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-wrapper{
+    border: 10px solid black;
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.box{
+    /* border: 1px solid #666; */
+    /* flex-basis: 600px; */
+    flex: 1 400px; 
+    /* (flex: 1 2 300px;)flex-grow , flex-shrink , flex-basis */
+}
+
+.box1{
+    background-color: lightblue;
+    /* flex-shrink: 1; */
+}
+
+.box2{
+    background-color: lightcoral;
+    /* flex-shrink: 2; */
+}
+
+.box3{
+    background-color: lightgrey;
+    /* flex-shrink: 3; */
+}
+
+.box4{
+    background-color: lightsalmon;
+}
+
+.box5{
+    background-color: lightslategray;
+}
